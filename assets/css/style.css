@@ -1,0 +1,93 @@
+/* .container:hover {
+  transform: scale(1.2);
+} */
+.car-item:hover {
+  transform: scale(1.1);
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+body {
+  background-color: rgb(255, 215, 0);
+  background-image: url(/img/Comics-Spiderman-PNG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.read {
+  margin: 0;
+  font-size: small;
+}
+
+.read:hover {
+  color: red;
+}
+
+.read:active {
+  color: beige;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: brown;
+}
+
+.card-info .content {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-info .title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.card-info .read-more__btn {
+  text-align: right;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 550px;
+}
+
+.car-item {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 255, 0.19);
+  border-radius: 16px;
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+}
+.inhere {
+  margin: 0 0 0 95px;
+  font-size: 18px;
+  color: brown;
+}
+.inhere:link{
+  color: brown;
+}
+.inhere:active{
+  color: red;
+}
+a {
+  text-decoration: none;
+}
